@@ -1,0 +1,89 @@
+.live-result-list {
+  margin: 10px 0;
+}
+
+.live-result-list__header {
+  color: #000;
+  padding: 5px;
+  /* margin: 3px; */
+  text-align: center;
+  font-weight: 700;
+  border-bottom: 2px solid #f39c12;
+  border-radius: 8px;
+  font-size: 20px;
+  background: linear-gradient(180deg, rgba(247, 101, 101, 1) 0, rgba(246, 238, 78, 1) 100%);
+}
+
+.live-result-list__body {
+  background-color: #fff;
+  color: #000;
+  border: solid 3px #f39c12;
+  text-shadow: 1px 1px 0 #969696, 1px 5px 5px #aba8a8;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 19px;
+  margin: 3px 0;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.live-result-list__row {
+  border-bottom: 1.5px solid silver;
+  /* margin: 2px 0; */
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.live-result-list__content {
+  flex: 1;
+  text-align: center;
+}
+
+
+.live-result-list__content .market-name {
+  font-size: 20px;
+}
+
+.live-result-list__content .result-number {
+  color: black;
+  font-size: 22px;
+}
+
+.live-result-list__content .time-range {
+  color: red;
+  font-size: 16px;
+}
+
+.jodichartleft a,
+.panelchartright a {
+  width: auto;
+  background-color: red;
+  padding: 2px 10px; /* extra horizontal padding */
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.jodichartleft {
+  padding-left: 8px;
+}
+
+.panelchartright {
+  padding-right: 8px;
+}
+
+.live-result-list__row.highlight {
+  background-color: gold;
+  padding: 6px 12px;          /* inner spacing */
+  box-sizing: border-box;     /* ensures padding is inside the width */
+}

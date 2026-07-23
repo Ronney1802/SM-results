@@ -1,0 +1,66 @@
+.dpboss-rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 15px;        /* Here padding is providing space at above and bottom of rating card inside main-footer (instead of using margin we have container named dpboss-rating-container wrapping rating-box and provining padding. */
+  font-style: italic;
+}
+
+.dpboss-rating-box {
+  background: linear-gradient(145deg, #1e1e1e, #252525);
+  border: 2px solid #ffcc00;
+  border-radius: 12px;
+  padding: 25px 35px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(255, 204, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dpboss-rating-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(255, 204, 0, 0.15);
+}
+
+.dpboss-rating-title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.dpboss-stars-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.dpboss-rating-stars {
+  font-size: 22px;
+}
+
+.dpboss-rating-score {
+  font-size: 18px;
+  color: #ffcc00;
+  font-weight: 800;
+}
+
+.dpboss-user-votes {
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.dpboss-rating-text {
+  font-size: 16px;
+  color:#dddddd;
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .dpboss-rating-box {
+    padding: 20px 15px;
+  }
+}

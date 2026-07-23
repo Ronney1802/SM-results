@@ -1,0 +1,54 @@
+.head1 {
+  background-color: #f5fffa;
+  color: #2c2c2c;
+  border: 2px solid #ff00ff;
+  margin: 2px auto;
+  padding: 6px;
+  font-size: 13px;
+  text-align: center;
+  font-style: italic;
+}
+
+.sub-title {
+  color: #00f;
+  margin: 2px 0;
+}
+
+main p {
+  text-align: center;
+  line-height: 1.4;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* .hindi-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: #006400;
+  margin: 2px 0;
+}
+
+.link-title {
+  color: #0000ff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+} 
+
+.link-title:hover {
+  text-decoration: underline;
+  color: #ff4500;
+} */
+
+/* main strong {
+  color: #000080;
+} */
+
+.main-footer {
+  background-color: #0b131e;
+  color: #fff;
+  padding: 25px 15px;       /* Providing inside space at top and bottom of the footer */        
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 5px solid #d32f2f;
+  text-align: center;    /* Aliging all the text (including header and descriptions inside card) into the center. */
+}

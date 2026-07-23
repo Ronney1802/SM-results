@@ -1,0 +1,55 @@
+/* LiveUpdate.css */
+.live-update {
+  border: solid 3px #956f13;
+  border-radius: 8px;
+  background-color: #f5fffa;
+  font-weight: 700;
+  font-style: italic;
+  font-size: small;
+  text-align: center;
+  text-shadow:
+    1px 1px 0 pink,
+    1px 5px 5px #aba8a8;
+  margin: 9px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.live-update__header {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Open Sans", sans-serif;
+  border: orange solid 3px;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px #d8b947;
+  border-radius: 4px;
+  text-align: center;
+  font-style: italic;
+  padding: 1px;
+}
+
+.live-update__row {
+  margin: 10px 0;
+}
+
+.market-name {
+  color: red;
+  font-size: 20px;
+}
+
+.result-number {
+  color: blue;
+  font-size: 22px;
+}
+
+.btn-refresh {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  background-color: #956f13;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}

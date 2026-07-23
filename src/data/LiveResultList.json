@@ -1,0 +1,187 @@
+[
+  {
+    "marketName": "Raja-Rani Morning",
+    "result": "467-76-556",
+    "openTime": "09:40",
+    "closeTime": "10:40"
+  },
+  {
+    "marketName": "Karnataka Day",
+    "result": "370-08-170",
+    "openTime": "10:00",
+    "closeTime": "11:00"
+  },
+  {
+    "marketName": "Kalyan Morning",
+    "result": "670-39-126",
+    "openTime": "11:40",
+    "closeTime": "12:40",
+    "highlight": "true"
+  },
+  {
+    "marketName": "Mini Milan",
+    "result": "350-83-139",
+    "openTime": "11:35",
+    "closeTime": "12:35"
+  },
+  {
+    "marketName": "Dhan Express",
+    "result": "120-38-260",
+    "openTime": "11:00",
+    "closeTime": "01:00"
+  },
+  {
+    "marketName": "Asha Bazar",
+    "result": "359-77-115",
+    "openTime": "11:15",
+    "closeTime": "12:15"
+  },
+  {
+    "marketName": "Dadar Day",
+    "result": "448-69-234",
+    "openTime": "01:45",
+    "closeTime": "02:45"
+  },
+  {
+    "marketName": "Shagun",
+    "result": "260-86-880",
+    "openTime": "11:20",
+    "closeTime": "12:20"
+  },
+  {
+    "marketName": "Malamal Bombay",
+    "result": "355-30-226",
+    "openTime": "11:35",
+    "closeTime": "12:35"
+  },
+  {
+    "marketName": "RR Morning",
+    "result": "168-53-689",
+    "openTime": "11:45",
+    "closeTime": "12:45"
+  },
+  {
+    "marketName": "Day Bombay",
+    "result": "***-**-***",
+    "openTime": "11:55",
+    "closeTime": "12:55"
+  },
+  {
+    "marketName": "Madhur Morning",
+    "result": "467-73-689",
+    "openTime": "11:35",
+    "closeTime": "12:35"
+  },
+  {
+    "marketName": "Sridevi",
+    "result": "268-67-160",
+    "openTime": "11:35",
+    "closeTime": "12:35",
+    "highlight": "true"
+  },
+  {
+    "marketName": "Sridevi Bazar",
+    "result": "145-07-133",
+    "openTime": "11:40",
+    "closeTime": "12:40"
+  },
+  {
+    "marketName": "Lokseva Day",
+    "result": "349-62-679",
+    "openTime": "11:45",
+    "closeTime": "12:45"
+  },
+  {
+    "marketName": "Main Sridevi",
+    "result": "579-15-690",
+    "openTime": "11:45",
+    "closeTime": "12:45"
+  },
+  {
+    "marketName": "Star Morning",
+    "result": "118-03-355",
+    "openTime": "11:45",
+    "closeTime": "12:45"
+  },
+  {
+    "marketName": "Maharani",
+    "result": "279-87-449",
+    "openTime": "12:15",
+    "closeTime": "02:15",
+    "highlight": "true"
+  },
+  {
+    "marketName": "Time Bazar",
+    "result": "460-06-240",
+    "openTime": "01:00",
+    "closeTime": "02:00"
+  },
+  {
+    "marketName": "Deluxe",
+    "result": "127-00-370",
+    "openTime": "01:15",
+    "closeTime": "02:15"
+  },
+  {
+    "marketName": "Dabra",
+    "result": "227-15-339",
+    "openTime": "01:30",
+    "closeTime": "02:30",
+    "highlight": "true"
+  },
+  {
+    "marketName": "Madhur Day",
+    "result": "120-39-568",
+    "openTime": "01:30",
+    "closeTime": "02:30"
+  },
+  {
+    "marketName": "KBC Bombay",
+    "result": "900-96-457",
+    "openTime": "01:30",
+    "closeTime": "02:30"
+  },
+  {
+    "marketName": "Diamond",
+    "result": "167-45-258",
+    "openTime": "01:30",
+    "closeTime": "03:00"
+  },
+  {
+    "marketName": "Prabhat",
+    "result": "200-24-356",
+    "openTime": "01:30",
+    "closeTime": "03:00",
+    "highlight": "true"
+  },
+  {
+    "marketName": "Star Day",
+    "result": "556-64-356",
+    "openTime": "12:00",
+    "closeTime": "02:00"
+  },
+  {
+    "marketName": "Morning Syndicate",
+    "result": "468-8",
+    "openTime": "02:20",
+    "closeTime": "03:20"
+  },
+  {
+    "marketName": "Khajana",
+    "result": "338-4",
+    "openTime": "03:15",
+    "closeTime": "05:15"
+  },
+  {
+    "marketName": "Milan Day",
+    "result": "178-61-146",
+    "openTime": "03:00",
+    "closeTime": "05:00"
+  },
+  {
+    "marketName": "Rajdhani Day",
+    "result": "250-70-127",
+    "openTime": "03:00",
+    "closeTime": "05:00"
+  }
+]

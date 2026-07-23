@@ -1,0 +1,24 @@
+.topic-box {
+  margin: 2px 0;
+}
+
+.topic-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--black, #000);
+  background-color: var(--light-bg, #fff5f8);
+  border: 2px solid var(--primary-red, #e70042);
+  border-radius: 3px;
+  box-shadow: 0 0 10px #461300;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.topic-icon {
+  margin: 0 8px;
+  height: auto;
+}

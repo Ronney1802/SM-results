@@ -1,0 +1,51 @@
+/* SupportCard.css */
+.support-card {
+  width: 100%;
+  border: 2px solid #0077be;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+}
+
+.support-header {
+  background-color: red;
+  color: white;
+  padding: 14px 10px;
+  margin: 0;
+  font-size: 19px;
+  font-weight: 500;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.support-text {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.support-body {
+  background-color: white;
+  padding: 12px;
+}
+
+.email-link {
+  display: inline-block;
+  background-color: #7ccd7c;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.email-link:hover {
+  transform: scale(1.05);
+  color: #ffc300;;
+}

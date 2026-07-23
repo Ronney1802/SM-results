@@ -1,0 +1,51 @@
+.contact-card {
+  background: #fff;
+  padding: 15px 10px;
+  border-radius: 12px;
+  color: #000;
+  max-width: 380px;
+  margin: 0 auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .5);
+  border-top: 4px solid #d32f2f;
+  text-align: center;
+  font-style: italic;
+}
+
+.site-name {
+  color: #d32f2f;
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.rights-text {
+  margin: 5px 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+}
+
+.owner-info {
+  margin: 15px 0;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}
+
+.owner-label {
+  font-weight: bold;
+  color: #333;
+  font-size: 11px;
+}
+
+.owner-name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #1a237e;
+}
+
+.vemo {
+  color: #00f;
+  font-size: 32px;
+  margin-top: 10px;
+}

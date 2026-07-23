@@ -1,0 +1,27 @@
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Variants */
+.btn.primary {
+  background-color: #003399;
+  color: #fff;
+  border: 2px solid deepskyblue;
+}
+
+.btn.secondary {
+  background-color: #fff;
+  color: blue;
+  border-width: 4px;
+  border-color: red;
+  border-style: inset;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+  border-radius: 10px;
+  padding: 2px 12px;
+}

@@ -1,0 +1,33 @@
+/* LuckyNumberCard.css */
+.lucky-card {
+  border: solid 3px #956f13;
+  border-radius: 8px;
+  background-color: #f5fffa;
+  color: #000;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 17px;
+  text-align: center;
+  text-shadow: 1px 1px 0 pink, 1px 5px 5px #aba8a8;
+  margin: 9px 0;
+  /* padding: 10px; */
+}
+
+.lucky-card__title {
+  margin-bottom: 8px;
+  border: solid 3px orange;
+}
+
+.lucky-card__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.lucky-card__table th,
+.lucky-card__table td {
+  padding: 6px;
+}
+
+.highlight {
+  color: red;
+}

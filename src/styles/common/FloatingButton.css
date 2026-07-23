@@ -1,0 +1,14 @@
+/* FloatingButtons.css */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  z-index: 999; /* floats above all components */
+}
+
+.floating-btn.left {
+  left: 5px;
+}
+
+.floating-btn.right {
+  right: 5px;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+   /* font-style: italic; */
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}

@@ -1,7 +1,7 @@
 {
   "name": "satta-matka",
   "private": true,
-  "homepage": "https://github.com/Ronney1802/SM-results",
+  "homepage": "https://ronney1802.github.io/SM-results",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

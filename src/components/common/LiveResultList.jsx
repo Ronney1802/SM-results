@@ -24,7 +24,7 @@ const LiveResultList = ({ results = [] }) => {
             className={`live-result-list__row ${item.highlight ? "highlight" : ""}`}
           >
             <div className="jodichartleft">
-              <a href={`/jodi/${item.marketName}`}>Jodi</a>
+              <a href={`/jodi/${item.url}`}>Jodi</a>
             </div>
 
             <div className="live-result-list__content">
@@ -43,7 +43,7 @@ const LiveResultList = ({ results = [] }) => {
             </div>
 
             <div className="panelchartright">
-              <a href={`/panel/${item.marketName}`}>Panel</a>
+              <a href={`/panel/${item.url}`}>Panel</a>
             </div>
           </div>
         ))}

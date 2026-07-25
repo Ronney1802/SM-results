@@ -13,6 +13,7 @@ import Banner from "../common/Banner";
 import FloatingButton from "../common/FloatingButton";
 import { InfoSectionQnA } from "../common/InfoSectionQnA"; // we import this component like this because this does not provide an export named 'default'
 import ChartSection from "../common/ChartSection";
+import FAQCard from "../common/FAQCard";
 
 const Home = () => {
   const jodiCharts = [
@@ -48,6 +49,7 @@ const Home = () => {
       url: "https://example.com",
     },
   ];
+
   return (
     <>
       <div className="head1">
@@ -126,6 +128,25 @@ const Home = () => {
         />
       </div>
       <InfoSectionQnA />
+      <div className="faq-wrap">
+        <div className="faq-heading">Frequently Asked Questions</div>
+        <FAQCard
+          question="Q1. What is DPBoss and why do millions of players visit it every day?"
+          answer="DPBoss is one of India's oldest and most trusted Satta Matka result platforms, running since 2012. It covers 50 plus Matka markets including Kalyan, Milan, Rajdhani, Time Bazar and Main Bazar — all updated the moment results are declared. No login required, no payment, no membership. That is exactly why millions of players bookmark SattaMatkaDpboss.Mobi and come back every single day."
+        />
+        <FAQCard
+          question="Q1. What is DPBoss and why do millions of players visit it every day?"
+          answer="DPBoss is one of India's oldest and most trusted Satta Matka result platforms, running since 2012. It covers 50 plus Matka markets including Kalyan, Milan, Rajdhani, Time Bazar and Main Bazar — all updated the moment results are declared. No login required, no payment, no membership. That is exactly why millions of players bookmark SattaMatkaDpboss.Mobi and come back every single day."
+        />
+        <FAQCard
+          question="Q1. What is DPBoss and why do millions of players visit it every day?"
+          answer="DPBoss is one of India's oldest and most trusted Satta Matka result platforms, running since 2012. It covers 50 plus Matka markets including Kalyan, Milan, Rajdhani, Time Bazar and Main Bazar — all updated the moment results are declared. No login required, no payment, no membership. That is exactly why millions of players bookmark SattaMatkaDpboss.Mobi and come back every single day."
+        />
+        <FAQCard
+          question="Q1. What is DPBoss and why do millions of players visit it every day?"
+          answer="DPBoss is one of India's oldest and most trusted Satta Matka result platforms, running since 2012. It covers 50 plus Matka markets including Kalyan, Milan, Rajdhani, Time Bazar and Main Bazar — all updated the moment results are declared. No login required, no payment, no membership. That is exactly why millions of players bookmark SattaMatkaDpboss.Mobi and come back every single day."
+        />
+      </div>
       <footer className="main-footer">
         <Banner
           title="!! Disclaimer !!"

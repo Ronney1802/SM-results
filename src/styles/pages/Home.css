@@ -44,11 +44,26 @@ main p {
   color: #000080;
 } */
 
+.faq-heading {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  background: #0c0361;
+  border: 2px solid red;
+  text-align: center;
+  padding: 7px 10px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 .main-footer {
   background-color: #0b131e;
   color: #fff;
-  padding: 25px 15px;       /* Providing inside space at top and bottom of the footer */        
+  padding: 25px 15px; /* Providing inside space at top and bottom of the footer */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-top: 5px solid #d32f2f;
-  text-align: center;    /* Aliging all the text (including header and descriptions inside card) into the center. */
+  text-align: center; /* Aliging all the text (including header and descriptions inside card) into the center. */
 }

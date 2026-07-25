@@ -1,0 +1,32 @@
+.faq-card {
+  background-color: #fdfefe;
+  color: #000;
+  font-size: small;
+  font-family: Arial, sans-serif;
+  border: 2px inset #82e0aa;
+  margin: 2px 0;
+  padding: 10px;
+  font-style: italic;
+}
+
+.faq-question {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #d70544;
+  font-weight: 800;
+  font-size: 22px;
+  padding: 8px 0;
+}
+
+.faq-answer p {
+  text-align: justify;
+  line-height: 1.6;
+  margin-bottom: 12px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .faq-question {
+    font-size: 15px;
+  }
+}

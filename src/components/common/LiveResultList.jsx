@@ -1,14 +1,14 @@
 import "../../styles/common/LiveResultList.css";
 
 const colors = [
-  "orange",   
-  "blue",     
-  "green",    
-  "purple",   
-  "red",      
-  "darkslategray", 
-  "gold",     
-  "teal",      
+  "orange",
+  "blue",
+  "green",
+  "purple",
+  "red",
+  "darkslategray",
+  "gold",
+  "teal",
 ];
 
 const LiveResultList = ({ results = [] }) => {
@@ -19,7 +19,10 @@ const LiveResultList = ({ results = [] }) => {
       </div>
       <div className="live-result-list__body">
         {results.map((item, index) => (
-          <div key={index} className={`live-result-list__row ${item.highlight ? "highlight" : ""}`}>
+          <div
+            key={index}
+            className={`live-result-list__row ${item.highlight ? "highlight" : ""}`}
+          >
             <div className="jodichartleft">
               <a href={`/jodi/${item.marketName}`}>Jodi</a>
             </div>

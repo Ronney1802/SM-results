@@ -6,7 +6,7 @@ const QnABlock = ({ question, answer, children }) => {
     <>
       <div className="qna-block">
         <h2 className="qna-question">{question}</h2>
-        <p className="qna-answer">{answer}</p>
+        <div className="qna-answer">{answer}</div>
         {children && <div className="qna-children">{children}</div>}
       </div>
       <hr />

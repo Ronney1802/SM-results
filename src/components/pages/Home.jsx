@@ -11,6 +11,7 @@ import RatingCard from "../common/RatingCard";
 import OwnerCard from "../common/OwnerCard";
 import Banner from "../common/Banner";
 import FloatingButton from "../common/FloatingButton";
+import { InfoSectionQnA } from "../common/InfoSectionQnA"; // we import this component like this because this does not provide an export named 'default'
 
 const Home = () => {
   return (
@@ -69,6 +70,7 @@ const Home = () => {
         title="MEMBER'S FORUM AND FREE SATTA MATKA ZONE"
         topics={forumData}
       />
+      <InfoSectionQnA />
       <footer className="main-footer">
         <Banner
           title="!! Disclaimer !!"

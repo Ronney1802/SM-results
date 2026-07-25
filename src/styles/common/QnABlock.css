@@ -1,0 +1,17 @@
+.qna-block .qna-question {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.qna-question {
+  margin: 2px;
+  font-size: 18px;
+  color: #00f;
+}
+
+.qna-block .qna-children {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}

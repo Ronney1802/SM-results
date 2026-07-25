@@ -1,0 +1,13 @@
+.Info-section-qna {
+  background-color: #fdfefe;
+  color: #000;
+  font-size: small;
+  line-height: 1.8;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  border-width: 2px;
+  border-color: #82e0aa;
+  border-style: inset;
+  margin: 2px;
+  padding: 10px;
+}

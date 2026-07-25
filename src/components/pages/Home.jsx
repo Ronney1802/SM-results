@@ -12,8 +12,42 @@ import OwnerCard from "../common/OwnerCard";
 import Banner from "../common/Banner";
 import FloatingButton from "../common/FloatingButton";
 import { InfoSectionQnA } from "../common/InfoSectionQnA"; // we import this component like this because this does not provide an export named 'default'
+import ChartSection from "../common/ChartSection";
 
 const Home = () => {
+  const jodiCharts = [
+    {
+      label: "Kalyan Chart",
+      url: "https://example.com",
+    },
+    {
+      label: "Main Bazar Chart",
+      url: "https://example.com",
+    },
+    {
+      label: "Main Ratan Chart",
+      url: "https://example.com",
+    },
+    {
+      label: "Main Mumbai Chart",
+      url: "https://example.com",
+    },
+  ];
+
+  const panelCharts = [
+    {
+      label: "Kalyan Panel Chart",
+      url: "https://example.com",
+    },
+    {
+      label: "Main Bazar Panel Chart",
+      url: "https://example.com",
+    },
+    {
+      label: "Main Ratan Penal Chart",
+      url: "https://example.com",
+    },
+  ];
   return (
     <>
       <div className="head1">
@@ -70,6 +104,27 @@ const Home = () => {
         title="MEMBER'S FORUM AND FREE SATTA MATKA ZONE"
         topics={forumData}
       />
+      <div className="chart-sections-container">
+        <ChartSection
+          heading="⇛ SATTA MATKA JODI CHART RECORDS"
+          items={jodiCharts}
+        />
+
+        <ChartSection
+          heading="⇛ SATTA MATKA PANEL CHART RECORDS"
+          items={panelCharts}
+        />
+
+        <ChartSection
+          heading="⇛ OTHER MATKA BAZAR JODI CHART RECORDS"
+          items={jodiCharts}
+        />
+
+        <ChartSection
+          heading="⇛ OTHER MATKA BAZAR PANEL CHART RECORDS"
+          items={panelCharts}
+        />
+      </div>
       <InfoSectionQnA />
       <footer className="main-footer">
         <Banner

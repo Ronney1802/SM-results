@@ -1,22 +1,22 @@
 [
   {
     "topic": "Daily 3 Ank Open To Close All Games",
-    "link": "#",
+    "link": "https://example.com/open-to-close",
     "icon": "/images/arrow_small.gif"
   },
   {
     "topic": "Weekly Jodi & Panna",
-    "link": "#",
+    "link": "https://example.com/weekly-jodi-and-panna",
     "icon": "/images/arrow_medium.gif"
   },
   {
     "topic": "All Matka Charts",
-    "link": "#",
+    "link": "https://example.com/satta-matka-charts",
     "icon": "/images/arrow_wide.gif"
   },
   {
     "topic": "Satta 220 Patti Favourite Panna Chart",
-    "link": "#",
+    "link": "https://example.com/all-panna-record",
     "icon": "/images/arrow_medium.gif"
   }
 ]

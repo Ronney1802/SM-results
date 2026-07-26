@@ -7,7 +7,8 @@ const FloatingButtons = () => {
       <div className="floating-btn left">
         {/* Matka Play download link */}
         <a
-          href="https://sattamatkadpboss.mobi/app-apna-release.apk"
+          // href="https://sattamatkadpboss.mobi/app-apna-release.apk"
+          href="#"
           download
           className="download-link"
         >

@@ -1,19 +1,19 @@
 import "../../styles/pages/Home.css";
 import liveResultsData from "../../data/LiveResultList.json";
 import forumData from "../../data/ForumTopics.json";
-import AppDownloadBanner from "../common/AppDownloadBanner";
-import LiveResultList from "../common/LiveResultList";
-import LiveUpdate from "../common/LiveUpdate";
-import LuckyNumberCard from "../common/LuckyNumberCard";
-import SupportCard from "../common/SupportCard";
-import ForumSection from "../common/ForumSection";
-import RatingCard from "../common/RatingCard";
-import OwnerCard from "../common/OwnerCard";
-import Banner from "../common/Banner";
-import FloatingButton from "../common/FloatingButton";
-import { InfoSectionQnA } from "../common/InfoSectionQnA"; // we import this component like this because this does not provide an export named 'default'
-import ChartSection from "../common/ChartSection";
-import FAQCard from "../common/FAQCard";
+import AppDownloadBanner from "../homePage/AppDownloadBanner";
+import LiveResultList from "../homePage/LiveResultList";
+import LiveUpdate from "../homePage/LiveUpdate";
+import LuckyNumberCard from "../homePage/LuckyNumberCard";
+import SupportCard from "../homePage/SupportCard";
+import ForumSection from "../homePage/ForumSection";
+import RatingCard from "../homePage/RatingCard";
+import OwnerCard from "../homePage/OwnerCard";
+import Banner from "../homePage/Banner";
+import FloatingButton from "../homePage/FloatingButton";
+import { InfoSectionQnA } from "../homePage/InfoSectionQnA"; // we import this component like this because this does not provide an export named 'default'
+import ChartSection from "../homePage/ChartSection";
+import FAQCard from "../homePage/FAQCard";
 
 const Home = () => {
   const jodiCharts = [

@@ -14,6 +14,7 @@ import FloatingButton from "../homePage/FloatingButton";
 import { InfoSectionQnA } from "../homePage/InfoSectionQnA"; // we import this component like this because this does not provide an export named 'default'
 import ChartSection from "../homePage/ChartSection";
 import FAQCard from "../homePage/FAQCard";
+import WeeklyPanel from "../homePage/WeeklyPanel";
 
 const Home = () => {
   const jodiCharts = [
@@ -105,6 +106,34 @@ const Home = () => {
       <ForumSection
         title="MEMBER'S FORUM AND FREE SATTA MATKA ZONE"
         topics={forumData}
+      />
+      {/* Key-value data */}
+      <WeeklyPanel
+        startDate="20-07-2026"
+        endDate="26-07-2026"
+        title="Weekly Panel Or Patti Chart For Kalyan, Milan, Kalyan Night, Rajdhani Night, Time Bazar, Main Bazar Market"
+        data={[
+          { key: "0", value: "235 389 116 334 677" },
+          { key: "1", value: "245 678 119 399 588" },
+          { key: "2", value: "138 480 110 499 688" },
+        ]}
+      />
+      {/* Plain content data */}
+      <WeeklyPanel
+        startDate="20-07-2026"
+        endDate="26-07-2026"
+        title="Weekly Jodi Chart For Kalyan, Milan, Kalyan Night, Rajdhani Night, Time Bazar, Main Bazar Market"
+        data={["45 46 92 98", "74 75 21 28", "51 52 54 58"]}
+      />
+      <WeeklyPanel
+        startDate="20-07-2026"
+        endDate="26-07-2026"
+        title="Weekly Panel Or Patti Chart For Kalyan, Milan, Kalyan Night, Rajdhani Night, Time Bazar, Main Bazar Market"
+        data={[
+          { key: "Mon.", value: "3-5-6-7" },
+          { key: "Tues.", value: "0-1-4-7" },
+          { key: "Wed.", value: "2-4-5-7" },
+        ]}
       />
       <div className="chart-sections-container">
         <ChartSection

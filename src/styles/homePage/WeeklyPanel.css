@@ -1,0 +1,60 @@
+.weekly-panel {
+  margin: 0;
+}
+
+.weekly-panel__header {
+  background-color: #fc6;
+  color: #000;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  border-bottom: 4px solid #ddb25b;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  font-weight: 700;
+  text-align: center;
+  font-size: large;
+}
+
+.weekly-panel__content {
+  background-color: #f5fffa;
+  border: 4px solid brown;
+  color: indigo;
+  text-align: center;
+}
+
+.weekly-panel__row {
+  font-weight: 700;
+  font-size: 20px;
+  font-family:
+    Georgia,
+    Times New Roman,
+    Times,
+    serif;
+  color: #000;
+  margin: 5px 0;
+}
+
+.weekly-panel__row--kv {
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.weekly-panel__key {
+  font-weight: 700;
+  color: #000;
+}
+
+.weekly-panel__value {
+  color: #000;
+}
+
+.weekly-panel__row--plain {
+  text-align: center;
+}
+
+.weekly-panel__arrow {
+  margin: 0 8px;
+  font-weight: 700;
+  color: #555;
+}

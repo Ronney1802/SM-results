@@ -1,16 +1,17 @@
 // DownloadBanner.jsx
-import "../../styles/common/AppDownloadBanner.css";
+import "../../styles/homePage/AppDownloadBanner.css";
 
 const AppDownloadBanner = () => {
   return (
     <div className="download-banner">
       <div className="download-banner__text">
-        अब मटका खेलना हुआ आसान ! घर बैठे मटका खेलो अब मोबाइल एप्लीकेशन पे और जीतो ढेर सारी धनराशि। अभी डाउनलोड करो।
+        अब मटका खेलना हुआ आसान ! घर बैठे मटका खेलो अब मोबाइल एप्लीकेशन पे और
+        जीतो ढेर सारी धनराशि। अभी डाउनलोड करो।
       </div>
 
       <div className="download-banner__button">
-        <a 
-          // href="https://sattamatkadpboss.mobi/app-apna-release.apk" 
+        <a
+          // href="https://sattamatkadpboss.mobi/app-apna-release.apk"
           href="#"
           download
         >

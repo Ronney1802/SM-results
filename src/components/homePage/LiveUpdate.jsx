@@ -1,4 +1,4 @@
-import "../../styles/common/LiveUpdate.css";
+import "../../styles/homePage/LiveUpdate.css";
 
 const LiveUpdate = ({ updates = [] }) => {
   const handleRefresh = () => {
@@ -8,7 +8,7 @@ const LiveUpdate = ({ updates = [] }) => {
   return (
     <div className="live-update">
       <div className="live-update__header">
-        <b>📡 LIVE UPDATE</b>                  {/* 📡 also comes frpom this code -> &#x1f4e1; */}
+        <b>📡 LIVE UPDATE</b> {/* 📡 also comes frpom this code -> &#x1f4e1; */}
       </div>
 
       {updates.map((item, index) => (

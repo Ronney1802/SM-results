@@ -1,4 +1,4 @@
-import "../../styles/common/TopicCard.css";
+import "../../styles/homePage/TopicCard.css";
 
 const TopicCard = ({ topic, link = "#", icon }) => {
   // console.log(topic, link, icon);

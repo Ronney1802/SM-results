@@ -1,4 +1,4 @@
-import "../../styles/common/ChartSection.css";
+import "../../styles/homePage/ChartSection.css";
 
 const ChartSection = ({ heading, items }) => {
   return (

@@ -1,4 +1,4 @@
-import "../../styles/common/QnABlock.css";
+import "../../styles/homePage/QnABlock.css";
 
 const QnABlock = ({ question, answer, children }) => {
   //   console.log("QnABlock props:", { children });

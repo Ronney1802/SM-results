@@ -1,4 +1,4 @@
-import "../../styles/common/Button.css";
+import "../../styles/homePage/Button.css";
 
 const Button = ({ label, onClick, variant = "primary" }) => {
   return (

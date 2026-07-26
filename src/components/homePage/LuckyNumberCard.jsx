@@ -1,5 +1,5 @@
 // LuckyNumberCard.jsx
-import "../../styles/common/LuckyNumberCard.css";
+import "../../styles/homePage/LuckyNumberCard.css";
 
 const LuckyNumberCard = ({ ankValues = [], finalAnkValues = [] }) => {
   return (
@@ -8,8 +8,12 @@ const LuckyNumberCard = ({ ankValues = [], finalAnkValues = [] }) => {
       <table className="lucky-card__table">
         <thead>
           <tr>
-            <th><span className="highlight">Ank (शुभांक)</span></th>
-            <th><span className="highlight">Final Ank</span></th>
+            <th>
+              <span className="highlight">Ank (शुभांक)</span>
+            </th>
+            <th>
+              <span className="highlight">Final Ank</span>
+            </th>
           </tr>
         </thead>
         <tbody>

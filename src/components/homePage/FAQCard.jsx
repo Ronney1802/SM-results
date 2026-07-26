@@ -1,4 +1,4 @@
-import "../../styles/common/FAQCard.css";
+import "../../styles/homePage/FAQCard.css";
 import { useState } from "react";
 
 export default function FAQCard({ question, answer }) {

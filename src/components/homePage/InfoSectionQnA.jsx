@@ -1,5 +1,5 @@
 import QnABlock from "./QnABlock";
-import "../../styles/common/InfoSectionQnA.css";
+import "../../styles/homePage/InfoSectionQnA.css";
 
 export const InfoSectionQnA = () => {
   return (

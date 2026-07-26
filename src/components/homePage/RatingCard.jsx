@@ -1,11 +1,11 @@
-import "../../styles/common/RatingCard.css";
+import "../../styles/homePage/RatingCard.css";
 
 const RatingCard = ({
   title = "DPBoss User Reviews & Ratings",
   stars = "⭐⭐⭐⭐⭐",
   score = "4.9 / 5",
   votes = "14,850",
-  description = "Fastest Satta Matka Results and Accurate Charts trusted by thousands of users daily."
+  description = "Fastest Satta Matka Results and Accurate Charts trusted by thousands of users daily.",
 }) => {
   return (
     <div className="dpboss-rating-container">

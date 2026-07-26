@@ -1,10 +1,10 @@
-import "../../styles/common/OwnerCard.css";
+import "../../styles/homePage/OwnerCard.css";
 
 const OwnerCard = ({
   siteName = "SattaMatkaDpboss.Mobi",
   rights = "ALL RIGHTS RESERVED (2012-2026)",
   owner = "PRO. BIG BOSS SIR",
-  contact = "08829959562"
+  contact = "08829959562",
 }) => {
   return (
     <div className="contact-card">

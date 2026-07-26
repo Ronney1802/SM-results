@@ -1,4 +1,4 @@
-import "../../styles/common/LiveResultList.css";
+import "../../styles/homePage/LiveResultList.css";
 
 const colors = [
   "orange",

@@ -1,0 +1,30 @@
+.footer-links-wrapper {
+  padding: 15px;
+  background: rgba(67, 32, 4, 1);
+  border-radius: 8px;
+  border: 1px solid #9a4a09;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* spacing between rows */
+  font-style: italic;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #fc6; /* highlight on hover */
+}

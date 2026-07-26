@@ -15,6 +15,7 @@ import { InfoSectionQnA } from "../homePage/InfoSectionQnA"; // we import this c
 import ChartSection from "../homePage/ChartSection";
 import FAQCard from "../homePage/FAQCard";
 import WeeklyPanel from "../homePage/WeeklyPanel";
+import FooterLinks from "../homePage/FooterLinks";
 
 const Home = () => {
   const jodiCharts = [
@@ -202,6 +203,48 @@ const Home = () => {
           borderColor="#fbc02d"
           titleColor="#b71c1c"
         />
+
+        <FooterLinks
+          linkGroups={[
+            [
+              {
+                href: "https://example.com",
+                label: "SATTA MATKA CHART",
+              },
+              {
+                href: "https://example.com",
+                label: "TARA MATKA",
+              },
+              {
+                href: "https://example.com",
+                label: "FIX MATKA",
+              },
+              {
+                href: "https://example.com",
+                label: "SITEMAP",
+              },
+            ],
+            [
+              {
+                href: "https://example.com",
+                label: "ABOUT US",
+              },
+              {
+                href: "https://example.com",
+                label: "CONTACT US",
+              },
+              {
+                href: "https://example.com",
+                label: "PRIVACY POLICY",
+              },
+              {
+                href: "https://example.com",
+                label: "DISCLAIMER",
+              },
+            ],
+          ]}
+        />
+
         <RatingCard />
         <OwnerCard />
         <FloatingButton />

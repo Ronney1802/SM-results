@@ -33,17 +33,17 @@
   margin: 10px 0;
 }
 
-.market-name {
+.live-update__row .market-name {
   color: red;
   font-size: 20px;
 }
 
-.result-number {
+.live-update__row .result-number {
   color: blue;
   font-size: 22px;
 }
 
-.btn-refresh {
+.live-update__row .btn-refresh {
   display: inline-block;
   margin-top: 12px;
   padding: 6px 12px;

@@ -13,3 +13,12 @@
   padding: 6px 6px;
   border: 1px groove #893bff;
 }
+
+/* @media screen and (max-width: 500px) {
+  .jodi-chart-table {
+    max-width: 110%;
+    min-width: 60%;
+    text-align: center;
+    border-collapse: separate;
+  }
+} */

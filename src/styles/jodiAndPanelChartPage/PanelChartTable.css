@@ -18,3 +18,12 @@
   font-size: 12px;
   padding: 3px 1px;
 }
+
+/* @media screen and (max-width: 500px) {
+  .panel-chart-table {
+    max-width: 110%;
+    min-width: 60%;
+    text-align: center;
+    border-collapse: separate;
+  }
+} */

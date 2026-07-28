@@ -1,4 +1,5 @@
 import "../../styles/homePage/LiveResultList.css";
+import { Link } from "react-router-dom";
 
 const colors = [
   "orange",
@@ -24,7 +25,7 @@ const LiveResultList = ({ results = [] }) => {
             className={`live-result-list__row ${item.highlight ? "highlight" : ""}`}
           >
             <div className="jodichartleft">
-              <a href={`/jodi/${item.url}`}>Jodi</a>
+              <Link to={`record/jodi`}>Jodi</Link>
             </div>
 
             <div className="live-result-list__content">
@@ -43,7 +44,7 @@ const LiveResultList = ({ results = [] }) => {
             </div>
 
             <div className="panelchartright">
-              <a href={`/panel/${item.url}`}>Panel</a>
+              <Link to={`record/panel`}>Panel</Link>
             </div>
           </div>
         ))}

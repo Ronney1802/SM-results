@@ -1,0 +1,26 @@
+.scroll-button-container {
+  border: 5px solid gold;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px 2px;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  text-shadow: 1px 1px gold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family:
+    trebuchet MS,
+    sans-serif;
+  align-self: center;
+}
+
+.scroll-button-container a {
+  color: #ff0000;
+  text-decoration: none;
+}
+.scroll-button-container a:hover {
+  color: red;
+  text-decoration: none;
+  font-family: Georgia, serif;
+}

@@ -1,0 +1,16 @@
+.dynamic-header {
+  text-shadow: 1px 2px 3px #000;
+  padding: 10px 0;
+  border-width: 3px;
+  border-style: solid;
+  text-align: center;
+}
+
+.dynamic-header a {
+  text-decoration: none;
+}
+
+.dynamic-header h1 {
+  margin: 0;
+  font-size: 1.6em;
+}

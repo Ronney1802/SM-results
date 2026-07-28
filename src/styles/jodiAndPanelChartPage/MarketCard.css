@@ -1,0 +1,39 @@
+.market-card {
+  background-color: yellow;
+  font-size: 24px;
+  border: 5px double firebrick;
+  text-align: center;
+  padding: 8px;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.market-card .market-name {
+  color: blue;
+  font-weight: bold;
+  /* margin-bottom: 4px; */
+}
+
+.market-card .market-result {
+  font-size: 23px;
+  display: block;
+  color: #000;
+}
+
+.market-card .refresh-btn {
+  background: linear-gradient(
+    0deg,
+    rgba(195, 138, 34, 0.99) 0%,
+    rgba(253, 246, 45, 1) 100%
+  );
+  border: 1px solid #f7dc6f;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 0 15px #000;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  margin-top: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+}

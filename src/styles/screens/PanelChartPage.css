@@ -1,0 +1,9 @@
+.panel-chart-page {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  margin: 5px;
+}

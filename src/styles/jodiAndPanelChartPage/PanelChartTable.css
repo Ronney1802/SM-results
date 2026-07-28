@@ -1,0 +1,20 @@
+.panel-chart-table {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
+  border: 5px groove #893bff;
+  text-shadow: 1px 1px gold;
+}
+
+.panel-chart-table td {
+  padding: 6px 6px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.panel-chart-table th {
+  font-size: 12px;
+  padding: 3px 1px;
+}

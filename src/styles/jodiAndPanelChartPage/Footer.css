@@ -1,0 +1,62 @@
+.footer {
+  background-color: #ff9;
+  color: #000;
+  border-left: 2px solid purple;
+  border-right: 2px solid purple;
+  border-top: 1px solid #ff0;
+  border-bottom: 1px solid #ff0;
+  border-radius: 3px;
+  padding: 4px 2px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: large;
+  text-align: center;
+  text-shadow: 1px 1px gold;
+  margin: 4px 0;
+  font-family: georgia, serif;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+.footer a span {
+  font-style: italic;
+}
+
+/* Specific colors for each link */
+.footer a span.home {
+  color: green;
+}
+.footer a span.guessing {
+  color: purple;
+}
+.footer a span.chart {
+  color: #b8860b;
+}
+.footer a span.play {
+  color: #0000ff;
+}
+.footer a span.tara {
+  color: green;
+}
+.footer a span.fix {
+  color: #b8860b;
+}
+.footer a span.sitemap {
+  color: red;
+}
+
+.footer .vemo2 a {
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer .vemo {
+  color: blue;
+  font-size: 32px;
+  margin-top: 4px;
+}

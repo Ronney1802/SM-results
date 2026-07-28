@@ -1,4 +1,4 @@
-import "../../styles/pages/Home.css";
+import "../../styles/screens/Home.css";
 import liveResultsData from "../../data/LiveResultList.json";
 import forumData from "../../data/ForumTopics.json";
 import AppDownloadBanner from "../homePage/AppDownloadBanner";
@@ -16,8 +16,23 @@ import ChartSection from "../homePage/ChartSection";
 import FAQCard from "../homePage/FAQCard";
 import WeeklyPanel from "../homePage/WeeklyPanel";
 import FooterLinks from "../homePage/FooterLinks";
+import { useEffect, useState } from "react";
+import { getLuckyNumber } from "../../services/luckyService";
 
 const Home = () => {
+  const [ankValues, setAnkValues] = useState([]);
+  const [finalAnkValues, setFinalAnkValues] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const { ankArray, finalAnkArray } = await getLuckyNumber();
+      setAnkValues(ankArray);
+      setFinalAnkValues(finalAnkArray);
+    };
+
+    fetchData();
+  }, []);
+
   const jodiCharts = [
     {
       label: "Kalyan Chart",
@@ -91,10 +106,11 @@ const Home = () => {
           </p>
         </main>
       </div>
-      <LuckyNumberCard
+      {/* <LuckyNumberCard
         ankValues={["0", "3", "6", "8"]}
         finalAnkValues={["K-7", "M-9"]}
-      />
+      /> */}
+      <LuckyNumberCard ankValues={ankValues} finalAnkValues={finalAnkValues} />
       <LiveUpdate
         updates={[
           { market: "RAJDHANI NIGHT", result: "150-63-300" },

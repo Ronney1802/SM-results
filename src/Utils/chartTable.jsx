@@ -18,7 +18,9 @@ export const isRepeatingDigits = (num) => {
 
 export const isPairPattern = (num) => {
   const str = num.toString().padStart(2, "0");
-  const first = parseInt(str[0], 10);
+  const first = parseInt(str[0], 10); // converts the first character from a string (like "1") into a number (1).
+  // you can also use alternatives like Number(str[0]) good for single digits.
+  // +str[0] - + converts string to number type shorter but less clear to beginners.
   const second = parseInt(str[1], 10);
   return pairMap[first] === second;
 };

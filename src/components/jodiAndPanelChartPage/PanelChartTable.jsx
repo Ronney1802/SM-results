@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/jodiAndPanelChartPage/PanelChartTable.css";
+import { shouldHighlight } from "../../Utils/chartTable";
 
 const PanelChartTable = ({ data }) => {
   const parseResult = (result) => {
@@ -28,6 +29,7 @@ const PanelChartTable = ({ data }) => {
             {/* Render each day’s result */}
             {week.results.map((res, dayIndex) => {
               const { open, jodi, close } = parseResult(res);
+
               return (
                 <React.Fragment key={dayIndex}>
                   {/* Open panel */}
@@ -37,8 +39,14 @@ const PanelChartTable = ({ data }) => {
                     ))}
                   </th>
 
-                  {/* Jodi (single two-digit number) */}
-                  <td>{jodi}</td>
+                  {/* Jodi (apply highlight logic here only) */}
+                  <td
+                    style={{
+                      color: shouldHighlight(jodi) ? "red" : "black",
+                    }}
+                  >
+                    {jodi}
+                  </td>
 
                   {/* Close panel */}
                   <th>

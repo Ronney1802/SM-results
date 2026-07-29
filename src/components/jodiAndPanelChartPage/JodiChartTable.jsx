@@ -1,11 +1,22 @@
 import "../../styles/jodiAndPanelChartPage/JodiChartTable.css";
 import jodiData from "../../data/JodiChartData.json";
+import { shouldHighlight } from "../../Utils/chartTable";
 
 const JodiChartRow = ({ row }) => (
   <tr>
-    {row.map((num, idx) => (
-      <td key={idx}>{num.toString().padStart(2, "0")}</td>
-    ))}
+    {row.map((num, idx) => {
+      const highlight = shouldHighlight(num);
+      return (
+        <td
+          key={idx}
+          style={{
+            color: highlight ? "red" : "black",
+          }}
+        >
+          {num.toString().padStart(2, "0")}
+        </td>
+      );
+    })}
   </tr>
 );
 

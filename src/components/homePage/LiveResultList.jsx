@@ -1,16 +1,7 @@
 import "../../styles/homePage/LiveResultList.css";
 import { Link } from "react-router-dom";
 
-const colors = [
-  "orange",
-  "blue",
-  "green",
-  "purple",
-  "red",
-  "darkslategray",
-  "gold",
-  "teal",
-];
+const colors = ["green", "brown", "blue", "red", "Magenta", "purple"];
 
 const LiveResultList = ({ results = [] }) => {
   return (

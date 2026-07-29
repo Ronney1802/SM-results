@@ -1,4 +1,4 @@
-import "../../styles/jodiAndPanelChartPage/WhatsappButton.css";
+import "../../styles/jodiAndPanelChartPage/WhatsAppButton.css";
 
 const WhatsAppButton = ({ channelId, label }) => {
   const link = `https://whatsapp.com/channel/${channelId}`;

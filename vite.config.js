@@ -5,11 +5,14 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // base: "/SM-results/", // important for GitHub Pages when working with a subdirectory into vite project.
-  /* Base not needed anymore because we are using cross env :- 
-  (updated the below code into scripts in package.json after installing "cross-env": "^10.1.0",)
-   "build:gh": "cross-env VITE_BASE_PATH=/SM-results/ vite build",
-   "deploy": "npm run build:gh && gh-pages -d dist" */
 });
+
+/* 
+  Base not needed anymore because we are using cross env :- 
+  (updated the below code into scripts in package.json after installing "cross-env": "^10.1.0",)
+  "build:gh": "cross-env VITE_BASE_PATH=/SM-results/ vite build",
+  "deploy": "npm run build:gh && gh-pages -d dist" 
+*/
 
 /* 
   Note: 

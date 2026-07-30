@@ -1,35 +1,39 @@
+import { Link } from "react-router-dom";
 import "../../styles/jodiAndPanelChartPage/Footer.css";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <a href="https://example.com" title="satta matka">
+      <Link to={"/"} title="satta matka">
         <span className="home">Home</span>
-      </a>
+      </Link>
       |
-      <a href="https://example.com" title="Satta matka guessing forum">
+      <Link
+        to={"satta-matka-guessing-forum"}
+        title="Satta matka guessing forum"
+      >
         <span className="guessing">Matka Guessing</span>
-      </a>
+      </Link>
       |
-      <a href="https://example.com" title="Satta matka chart">
+      <Link to={"satta-matka-chart"} title="Satta matka chart">
         <span className="chart">Matka Chart</span>
-      </a>
+      </Link>
       |
-      <a href="https://example.com" title="Matka Play">
+      <Link to={"online-matka-play"} title="Matka Play">
         <span className="play">Matka Play</span>
-      </a>
+      </Link>
       |
-      <a href="https://example.com" title="Tara Matka">
+      <Link to={"tara-matka-mumbai"} title="Tara Matka">
         <span className="tara">Tara Matka</span>
-      </a>
+      </Link>
       |
-      <a href="https://example.com" title="Fix Matka">
+      <Link to={"fix-matka-number"} title="Fix Matka">
         <span className="fix">Fix Matka</span>
-      </a>
+      </Link>
       |
-      <a href="https://example.com" title="Sitemap">
+      <Link to={"sitemap"} title="Sitemap">
         <span className="sitemap">Sitemap</span>
-      </a>
+      </Link>
       <hr />
       <div className="vemo2">
         <a href="https://example.com">SattaMatkaDpboss.Mobi</a>

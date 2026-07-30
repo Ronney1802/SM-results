@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/homePage/FooterLinks.css";
+import { Link } from "react-router-dom";
 
 const FooterLinks = ({ linkGroups }) => {
   return (
@@ -10,7 +11,7 @@ const FooterLinks = ({ linkGroups }) => {
           <div key={groupIndex} className="nav-links">
             {group.map((link, linkIndex) => (
               <React.Fragment key={linkIndex}>
-                <a href={link.href}>{link.label}</a>
+                <Link to={link.to}>{link.label}</Link>
                 {linkIndex < group.length - 1 && (
                   <span className="nav-separator">|</span>
                 )}

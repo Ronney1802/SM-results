@@ -224,37 +224,37 @@ const Home = () => {
           linkGroups={[
             [
               {
-                href: "https://example.com",
+                to: "https://example.com",
                 label: "SATTA MATKA CHART",
               },
               {
-                href: "https://example.com",
+                to: "https://example.com",
                 label: "TARA MATKA",
               },
               {
-                href: "https://example.com",
+                to: "https://example.com",
                 label: "FIX MATKA",
               },
               {
-                href: "https://example.com",
+                to: "https://example.com",
                 label: "SITEMAP",
               },
             ],
             [
               {
-                href: "https://example.com",
+                to: "about-us",
                 label: "ABOUT US",
               },
               {
-                href: "https://example.com",
+                to: "contact",
                 label: "CONTACT US",
               },
               {
-                href: "https://example.com",
+                to: "privacy-policy",
                 label: "PRIVACY POLICY",
               },
               {
-                href: "https://example.com",
+                to: "disclaimer",
                 label: "DISCLAIMER",
               },
             ],

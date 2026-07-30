@@ -6,8 +6,13 @@ const FooterLinks = ({ linkGroups }) => {
   return (
     <div className="footer-links-wrapper">
       {linkGroups.map((group, groupIndex) => (
-        <div key={groupIndex}>
-          <hr className="footer-links-divider" />
+        <div
+          key={groupIndex}
+          style={{
+            width: "100%",
+          }}
+        >
+          <hr style={{ borderColor: "rgba(255, 255, 255, 0.1)" }} />
           <div className="nav-links">
             {group.map((link, linkIndex) => (
               <React.Fragment key={linkIndex}>

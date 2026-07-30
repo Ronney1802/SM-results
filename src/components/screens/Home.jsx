@@ -5,7 +5,7 @@ import AppDownloadBanner from "../homePage/AppDownloadBanner";
 import LiveResultList from "../homePage/LiveResultList";
 import LiveUpdate from "../homePage/LiveUpdate";
 import LuckyNumberCard from "../homePage/LuckyNumberCard";
-import SupportCard from "../homePage/SupportCard";
+import SupportContactBanner from "../homePage/SupportContactBanner";
 import ForumSection from "../homePage/ForumSection";
 import RatingCard from "../homePage/RatingCard";
 import OwnerCard from "../homePage/OwnerCard";
@@ -119,7 +119,7 @@ const Home = () => {
       />
       <AppDownloadBanner />
       <LiveResultList results={liveResultsData} />
-      <SupportCard />
+      <SupportContactBanner />
       <ForumSection
         title="MEMBER'S FORUM AND FREE SATTA MATKA ZONE"
         topics={forumData}

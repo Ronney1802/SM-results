@@ -1,7 +1,7 @@
 // SupportCard.jsx
-import "../../styles/homePage/SupportCard.css";
+import "../../styles/homePage/SupportContactBanner.css";
 
-const SupportCard = () => {
+const SupportContactBanner = () => {
   return (
     <div className="support-card">
       <h3 className="support-header">Contact For Any Support And Queries</h3>
@@ -17,4 +17,4 @@ const SupportCard = () => {
   );
 };
 
-export default SupportCard;
+export default SupportContactBanner;

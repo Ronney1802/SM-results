@@ -1,4 +1,3 @@
-// services/luckyService.js
 const BASE_URL = "https://kolby-nonstretchable-away.ngrok-free.dev";
 
 export async function getLuckyNumber() {

@@ -1,0 +1,47 @@
+.info-card {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 92%;
+}
+
+.info-card h1 {
+  font-size: 26px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.info-content {
+  margin-bottom: 20px;
+}
+
+.warning-box {
+  background: #fff3f3;
+  border-left: 5px solid #d32f2f;
+  padding: 15px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #b71c1c;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+.info-btn {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  margin: 30px auto 0;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}

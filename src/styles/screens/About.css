@@ -1,0 +1,21 @@
+.about {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  color: #333;
+  font-size: 17px;
+  text-align: justify;
+  word-wrap: break-word;
+  padding-bottom: 30px;
+}
+.about .highlight {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.about .note {
+  font-size: 14px;
+  color: #777;
+  font-style: italic;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}

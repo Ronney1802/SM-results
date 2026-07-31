@@ -8,7 +8,9 @@
   font-style: italic;
   font-size: 17px;
   text-align: center;
-  text-shadow: 1px 1px 0 pink, 1px 5px 5px #aba8a8;
+  text-shadow:
+    1px 1px 0 pink,
+    1px 5px 5px #aba8a8;
   margin: 9px 0;
   /* padding: 10px; */
 }
@@ -28,6 +30,6 @@
   padding: 6px;
 }
 
-.highlight {
+.lucky-card .highlight {
   color: red;
 }

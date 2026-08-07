@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // base: "/SM-results/", // important for GitHub Pages when working with a subdirectory into vite project.
+  base: "/SM-results", // important for GitHub Pages when working with a subdirectory into vite project.
 });
 
 /* 

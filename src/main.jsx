@@ -7,7 +7,7 @@ import ScrollToTop from "./components/common/ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/SM-results">
       {/* Scroll reset runs on every route change */}
       <ScrollToTop />
       <App />
